@@ -1,0 +1,26 @@
+digraph pastafarianism {
+ordering=out;
+graph [fontname="times-roman"];
+node [fontname="times-roman"];
+edge [fontname="times-roman"];
+"Parameter Fusion" [fillcolor="#005195", fontcolor=white, fontsize=8, label="Parameter Fusion\n(Reactive Sequence)", shape=box, style=filled];
+"Common Checks" [fillcolor="#005195", fontcolor=white, fontsize=8, label="Common Checks\n(Reactive Sequence)", shape=box, style=filled];
+"Parameter Fusion" -> "Common Checks";
+
+"Road Type Selector" [fillcolor="#01A0E9", fontcolor=black, fontsize=8, label="Road Type\n(Reactive Selector)", shape=octagon, style=filled];
+"Parameter Fusion" -> "Road Type Selector";
+City [fillcolor="#005195", fontcolor=white, fontsize=8, label="City\n(Reactive Sequence)", shape=box, style=filled];
+"Road Type Selector" -> City;
+"Behavior of Adjacent Driver" [fillcolor="#CACAC8", fontcolor=black, fontsize=8, label="Behavior of\nAdjacent Driver", shape=ellipse, style=filled];
+City -> "Behavior of Adjacent Driver";
+"Type of Adjacent Vehicle" [fillcolor="#CACAC8", fontcolor=black, fontsize=8, label="Type of\nAdjacent Vehicle", shape=ellipse, style=filled];
+City -> "Type of Adjacent Vehicle";
+"Behavior of Opposing Driver" [fillcolor="#FFB201", fontcolor=black, fontsize=10, label="Behavior of\nOpposing Driver", shape=ellipse, style=filled];
+City -> "Behavior of Opposing Driver" [penwidth=4, color="#FF5733"];
+"Type of Opposing Vehicle" [fillcolor="#CACAC8", fontcolor=black, fontsize=8, label="Type of\nOpposing Vehicle", shape=ellipse, style=filled];
+City -> "Type of Opposing Vehicle";
+"New Lane Center" [fillcolor="#CACAC8", fontcolor=black, fontsize=8, label="New Lane\nCenter Target", shape=ellipse, style=filled];
+"Parameter Fusion" -> "New Lane Center";
+Interstate [fillcolor="#005195", fontcolor=white, fontsize=8, label="Other road types...\n(Reactive Sequences)", shape=box, style=filled];
+"Road Type Selector" -> Interstate;
+}

@@ -1,7 +1,8 @@
-# LidarLanekeepingSystem
-Work from the Paper: Development of a Rule-Based Lidar Lane-keeping Assistance System for Autonomous Vehicles Applications
-
-
+# LiDARLaneDetection
+# To Dos Robin
+- Map
+- Add Paragraph explaining BT
+- add references BT
 ## Papers
 - https://ieeexplore.ieee.org/document/9827157
 - https://data.uni-hannover.de/cs_CZ/dataset/lumpi
