@@ -1,8 +1,6 @@
 # LiDARLaneDetection
-# To Dos Robin
-- Map
-- Add Paragraph explaining BT
-- add references BT
+# Update: Large File system is not used anymore
+
 ## Papers
 - https://ieeexplore.ieee.org/document/9827157
 - https://data.uni-hannover.de/cs_CZ/dataset/lumpi
