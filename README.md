@@ -7,6 +7,7 @@
 - https://www.thi.de/forschung/carissma/aktuelles-presse/einzelansicht/news/kuenstliche-intelligenz-soll-kreuzungen-in-ingolstadt-sicherer-machen/
 - https://mediatum.ub.tum.de/doc/1145103/file.pdf
 - https://www.fraunhofer.de/de/presse/presseinformationen/2022/februar-2022/kuenstliche-intelligenz-steuert-ampelanlagen.html
+- https://www.diva-portal.org/smash/get/diva2:907048/FULLTEXT01.pdf
 
 ## Matlab Sites
 - https://www.mathworks.com/help/lidar/ug/lane-detection-in-3d-lidar-point-cloud.html
