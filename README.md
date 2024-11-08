@@ -27,7 +27,9 @@ part 1: Formatting the data (skip this if you already have the "storage_######.m
    At the bottom of dataFormatting, adjust it to save the nearIr and storage variables to the appropriate file name
 
 Part 2: running the vehicle tracking.
-   Run vehicleTrackingDistance file. If you want to use data from a specific scene, clear all variables then load that scene data and rerun the code
+   Run vehicleTrackingDistance file. If you want to use data from a specific scene, clear all variables then load that scene data and rerun the code.
+
+   More instructions are given at the top of vehicleTrackingDistance.m file
 
 ## Instructions and Commands to connect the Ouster LiDAR with the Nvidia Jetson
 Install the Ouster Sensor SDK on the Jetson. This URL has the instructions and link to the download page: https://static.ouster.dev/sdk-docs/index.html
