@@ -21,6 +21,14 @@
 - [Py-trees](https://py-trees.readthedocs.io/en/devel/)
 -[UML visualizer](https://www.planttext.com/)
 
+## Instructions to use vehicle detection
+part 1: Formatting the data (skip this if you already have the "storage_######.mat" and "nearIr_######.mat" files)
+   open "dataFormatting" file and adjust the ousterFileReader line to be the desired files
+   at the bottom of dataFormatting, adjust it to save the nearIr and storage variables to the appropriate file name
+
+Part 2: running the vehicle tracking
+   run vehicleTrackingDistance file. if you want to use data from a specific scene, clear all variables then load that scene data and rerun the code
+
 ## Instructions and Commands to connect the Ouster LiDAR with the Nvidia Jetson
 Install the Ouster Sensor SDK on the Jetson. This URL has the instructions and link to the download page: https://static.ouster.dev/sdk-docs/index.html
 Connect the LiDAR to the Jetson via LAN, then start up the Jetson. Go to Settings>Network and then click on the cogwheel in the line of the wires connection. Then check both the IPv4 and IPv6 tabs and set the method to Link-Local Only leave the rest as it is.
