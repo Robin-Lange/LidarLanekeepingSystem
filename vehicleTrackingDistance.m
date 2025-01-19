@@ -2,7 +2,7 @@
 %this is the main code. It has the vehicle tracking and it calls functions
 %for the lane tracking and distance calculating
 %to run it, load 1 of the next 2 sections, depending on if you want all the
-%data or just from 1 scenario. scene 3 is probably the most iffy of the 4
+%data or just from 1 scenario. 
 %the file that calculates the lanes is named "Attempt2LaneFindingFunction"
 %the file that calculates distance to center line is called
 %"distanceFinding"
@@ -12,7 +12,7 @@
 %"scenarioFinder" this fill is just the camera view and will run much
 %faster. I used it to note down potential scenarios and the tested them
 %after with this code
-%if you need any other info, please ask
+%if you need any other info, please ask Luke
 
 % %% Run this section if you want a specific scene
 % %before running this section, you need to download the scene data files
