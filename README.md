@@ -1,4 +1,5 @@
 # LiDARLaneDetection
+Installing pip packages: `pip3 install -r requirements.txt`
 # Update: Large File system is not used anymore
 
 ## Papers
