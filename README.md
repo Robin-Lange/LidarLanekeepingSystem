@@ -95,18 +95,7 @@ Replace `<sensor-id>` with the identifier reported by `ouster-cli discover`. Sen
 
 ## Project contributions
 
-The repository supports the work reported in the SAE paper. Based on the project contribution history provided by the authors:
-
-- **Luke Kroeger** — primary implementation and development of the vehicle-tracking and lane-keeping analysis workflow.
-- **Robin Lange** — literature review, code coordination and collaboration, and preparation of figures.
-- **Valentin Soloiu** — research supervision and project contribution.
-- **Shaen Mehrzed** — research contribution.
-- **Kody Pierce** — research contribution.
-- **Timothy Sutton** — research contribution.
-
-Please refer to the paper for the formal author list, affiliations, and publication record.
-
-## Publication
+The repository supports the work reported in the SAE paper where Luke Kroeger was the lead developer on the algorithm.
 
 > Soloiu, V., Mehrzed, S., Kroeger, L., Pierce, K., Sutton, T., and Lange, R. “Development of a Rule-Based Lidar Lane-Keeping Assistance System for Autonomous Vehicles Applications.” *WCX SAE World Congress Experience*, SAE Technical Paper 2025-01-8025, April 1, 2025.
 
